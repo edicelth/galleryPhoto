@@ -1,0 +1,43 @@
+body {
+  background-color: green;
+}
+
+#article {
+  margin: 0 auto;
+  width: 960px;
+  border: 1px solid green;
+}
+
+#article p {
+  margin: 10px;
+  float: left;
+  border: 2px solid green;
+}
+
+#lightbox {
+  display: none;
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background-color: black;
+  margin: 5% auto;
+  border: 3px solid green;
+    padding: 50px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+#lightbox img {
+
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%
+}
+
+.container {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
